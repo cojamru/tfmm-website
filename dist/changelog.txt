@@ -1,0 +1,34 @@
+[26/01/2015] Update 1.0.8.9:
+	Design overhaul;
+	Config Manager (beta);
+	A lot of code improvements.
+
+[03/11/2014] Update 1.0.7:
+	TF_English.txt patcher;
+	A lot of bug fixes.
+
+[23/10/2014] Update 1.0.6:
+	New Install Manager:
+		You can install overrides by dragging them to the mod;
+	New Mod Info Editor;
+	Update search timeout;
+	Mods combining.
+
+[13/10/2014] Update 1.0.5:
+	Grouping:
+		by Enabled/Disabled;
+		by Type;
+		by Category.
+	Mods.tf embedded browser:
+		download mods from the site and auto-install them.
+	Auto-Updater.
+
+[1/09/22014] Update 1.0.4:
+	RAR and 7z support (you need to have 7-Zip installed);
+	Reduced executable size (via UPX);
+	small bug fixes.
+
+[23/07/2014] Update 1.0.3:
+	Now you can install BSP maps (they are not visible in modification list);
+	Donation section;
+	Small fixes.

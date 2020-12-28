@@ -1,0 +1,29 @@
+{
+    "name": "tfmm-website",
+    "description": "Website for Team Fortress Modification Manager",
+    "private": true,
+    "version": "1.0.0",
+    "author": "Dmitry <dmitry@cojam.ru> (https://e965.ru)",
+    "repository": "github:cojamru/tfmm-website",
+    "license": "MIT",
+    "scripts": {
+        "prettier": "prettier --write **/*.{html,json,js,css}",
+        "lint-staged": "lint-staged"
+    },
+    "lint-staged": {
+        "*.{html,json,js,css}": [
+            "prettier --write"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run lint-staged"
+        }
+    },
+    "devDependencies": {
+        "husky": "4.3.6",
+        "lint-staged": "10.5.3",
+        "prettier": "2.2.1"
+    },
+    "dependencies": {}
+}

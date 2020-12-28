@@ -1,0 +1,95 @@
+/* body {
+	background-image: url(background.png);
+	background-color: #B4BBB8;
+} */
+
+body {
+    font-family: Ubuntu, Roboto, Arial, sans-serif;
+}
+
+@media (max-width: 1050px) {
+    header img {
+        width: 100%;
+    }
+}
+
+div#screenshots a img {
+    display: inline-block;
+    width: 49%;
+    margin: 2px 0px 2px 0px;
+}
+
+/* div#screenshots a img {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+
+div#screenshots a img:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+} */
+
+div#download a.button {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'TF2 Build', sans-serif;
+    font-size: 20pt;
+    color: #2c2927;
+    background: #e2e2e2;
+    background: linear-gradient(top, #d7ccb5, #9f9174);
+    background: -webkit-linear-gradient(top, #d7ccb5, #9f9174);
+    background: -moz-linear-gradient(top, #d7ccb5, #9f9174);
+    background: -ms-linear-gradient(top, #d7ccb5, #9f9174);
+    background: -o-linear-gradient(top, #d7ccb5, #9f9174);
+    border-radius: 5px;
+    border: 1px solid #9f8e6b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    -webkit-transition: all 0.4s;
+    transition: all 0.2s;
+}
+
+div#download a.button:hover {
+    color: #393633;
+    background: -linear-gradient(top, #ede4cd, #9f9174);
+    background: -webkit-linear-gradient(top, #ede4cd, #9f9174);
+    background: -moz-linear-gradient(top, #ede4cd, #9f9174);
+    background: -ms-linear-gradient(top, #ede4cd, #9f9174);
+    background: -o-linear-gradient(top, #ede4cd, #9f9174);
+    border: 1px solid #9f8e6b;
+}
+
+div#download a.button:active {
+    color: #e0e2d9;
+    background: linear-gradient(top, #776c5e, #a5987b);
+    background: -webkit-linear-gradient(top, #776c5e, #a5987b);
+    background: -moz-linear-gradient(top, #776c5e, #a5987b);
+    background: -ms-linear-gradient(top, #776c5e, #a5987b);
+    background: -o-linear-gradient(top, #776c5e, #a5987b);
+    border: 1px solid #776c5e;
+}
+
+div#changelog {
+    margin-top: 20px;
+}
+
+p,
+ul {
+    font-size: 14pt;
+}
+
+div.spoiler-text {
+    display: none;
+}
+
+div#changelog ul > li {
+    text-align: left;
+}
